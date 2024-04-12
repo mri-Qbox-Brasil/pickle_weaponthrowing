@@ -6,7 +6,7 @@ Config.Language = "en"
 
 Config.DeathDropsWeapon = true -- Drops your current weapon upon death.
 
-Config.ThrowKeybind = "e"
+Config.ThrowKeybind = "MOUSE_MIDDLE"
 
 Config.Weapons = { -- Any weapon in this list is throwable.
     "WEAPON_DAGGER",

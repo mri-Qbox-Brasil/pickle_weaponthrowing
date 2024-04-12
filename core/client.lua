@@ -21,7 +21,11 @@ function ShowInteractText(text)
     interactTick = timer
     if interactText == nil or interactText ~= text then 
         interactText = text
-        lib.showTextUI(text)
+        lib.showTextUI(text,
+                    {
+                        icon = "fa-solid fa-hand",
+                        iconAnimation = "bounce"
+                    })
     end
     if interactCheck then return end
     interactCheck = true
