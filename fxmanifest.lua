@@ -10,10 +10,10 @@ author       'Pickle Mods'
 shared_scripts {
     '@ox_lib/init.lua',
     'config.lua',
-    'core/shared.lua',
+    -- 'core/shared.lua',
     "locales/locale.lua",
     "locales/translations/*.lua",
-    'modules/**/shared.lua',
+    -- 'modules/**/shared.lua',
 }
 
 server_scripts {
